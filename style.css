@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#90e0ef;
+}
+
+h1{
+    position: static;
+    text-align: center;
+    color:rgb(4, 1, 19);
+    font-size: 45px;
+    font-weight: 600;
+    
+}
+
+.pesti {
+    display:flex;
+    flex-direction: column;
+}
+
+.coloane {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.pesti h2 {
+    position:relative;
+    left: 75px;
+    font-size: 30px;
+    text-transform: uppercase;   
+}
+
+.pesti img {
+    position: relative;
+    width: 350;
+    border-radius: 20%;
+}
+
+.pesti p {
+    margin: 3px;
+    text-indent: 1em;
+}
+
+.pesti p:first-of-type::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    
+}
+
+.pesti P:last-of-type{
+    font-style: italic;
+    color: black;
+}
+
+
